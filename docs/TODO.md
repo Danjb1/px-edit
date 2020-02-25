@@ -2,14 +2,13 @@
 
 ## Project
 
- - Split JS across multiple files
  - Use TypeScript?
 
 ## Features
 
- - Show brush colour under the cursor
  - Colour picker
  - Pencil tool
+ - Undo / redo
  - Eraser tool
  - Resize canvas
  - Zooming
@@ -39,3 +38,8 @@
     - Move selected region
     - Copy / paste selected region
     - Modifiers only affect selected region
+
+## Bugs
+
+ - When mousedown event happens outside the canvas, no pixels are painted
+ - When the mouse moves quickly, gaps are left in the resulting line
